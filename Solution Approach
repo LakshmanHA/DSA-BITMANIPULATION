@@ -1,0 +1,12 @@
+# Solution Approach
+
+-> For this problem we need more understanding of BIT-Manipulation if you cleanly monitor the exression given expression is nothing but A XOR B
+-> Now we need to find minimum XOR in an array
+-> Truth Table for XOR
+           0 0 0
+           1 1 0
+           0 1 1
+           1 0 1
+-> if we want to find minimum that is always present in between large numbers in array
+->so we need to sort an array in desecending order and do the xor with next number only now we can minumum
+->for code in python please refer python file
